@@ -1,0 +1,183 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="SchedulePointeShell.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Schedule Pointe, Inc.</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <asp:ScriptReference Path="~/Scripts/bootstrap-datepicker.js" />
+                <asp:ScriptReference Path="~/Scripts/bootstrap3-typeahead.min.js" />
+                <asp:ScriptReference Path="~/Scripts/bootstrap-dropdownhover.min.js" />
+                <asp:ScriptReference Path="~/Scripts/bootbox.min.js" />
+                <asp:ScriptReference Path="~/Scripts/validator.js" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-inverse navbar-fixed-top" data-hover="dropdown">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="../" id="hypCompanyName" class="navbar-brand">North Wind Aviation</a>
+                </div>
+                <div class="navbar-collapse collapse" data-hover="dropdown">
+
+                    <ul id="myTopnav" class="nav navbar-nav">
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Schedules<b class="caret"></b></a><ul class="dropdown-menu">
+                            <li class="dropdown"><a href="AircraftSchedule3.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Aircraft<b class="caret"></b></a><ul class="dropdown-menu">
+                                <li><a href="AircraftSchedule3.aspx?ScheduleDate=09/19/2017">Tomorrow</a></li>
+                                <li><a href="AircraftSchedule3.aspx?ScheduleDate=09/20/2017">Next Day</a></li>
+                            </ul>
+                            </li>
+                            <li class="dropdown"><a href="InstructorSchedule3.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Instructor<b class="caret"></b></a><ul class="dropdown-menu">
+                                <li><a href="InstructorSchedule3.aspx?ScheduleDate=09/19/2017">Tomorrow</a></li>
+                                <li><a href="InstructorSchedule3.aspx?ScheduleDate=09/20/2017">Next Day</a></li>
+                                <li><a href="ScheduleStaffMeeting.aspx?ScheduleDate=09/18/2017">Staff Meeting</a></li>
+                            </ul>
+                            </li>
+                            <li class="dropdown"><a href="EntireSchedule3.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Entire<b class="caret"></b></a><ul class="dropdown-menu">
+                                <li><a href="EntireSchedule3.aspx?ScheduleDate=09/19/2017">Tomorrow</a></li>
+                                <li><a href="EntireSchedule3.aspx?ScheduleDate=09/20/2017">Next Day</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="CustomSchedule3.aspx">Custom</a></li>
+                            <li class="dropdown"><a href="WeeklySchedule4.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Weekly<b class="caret"></b></a><ul class="dropdown-menu">
+                                <li><a href="WeeklySchedule2.aspx">Weekly 2</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="MonthlySchedule.aspx">Monthly</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="EventListMonth.aspx">Events</a></li>
+                        <li class="dropdown"><a href="DispatchList.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dispatch<b class="caret"></b></a><ul class="dropdown-menu">
+                            <li><a href="DispatchInstructor.aspx">Add Dispatch</a></li>
+                        </ul>
+                        </li>
+                        <li class="dropdown"><a href="OrderList.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Orders<b class="caret"></b></a><ul class="dropdown-menu">
+                            <li><a href="PreOrder.aspx?ReturnOrder=false">New Order</a></li>
+                            <li><a href="PreOrder.aspx?ReturnOrder=true">New Return</a></li>
+                            <li><a href="javascript: DisplayInventoryList();">Add/Edit Inventory</a></li>
+                        </ul>
+                        </li>
+                        <li class="dropdown"><a href="CourseDashboard.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Curriculum<b class="caret"></b></a><ul class="dropdown-menu">
+                            <li><a href="CoursePartyDetail.aspx">Lesson Gradesheet</a></li>
+                            <li><a href="CoursePartyDetailBatch.aspx">Batch Processing</a></li>
+                            <li><a href="javascript: DisplayClassList();">Classes</a></li>
+                            <li><a href="javascript: DisplayOrganizationList();">Organizations</a></li>
+                        </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pilots<b class="caret"></b></a><ul class="dropdown-menu">
+                            <li><a href="PilotList.aspx">Pilot List</a></li>
+                            <li><a href="Pilot.aspx">Add Pilot</a></li>
+                        </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Aircraft<b class="caret"></b></a><ul class="dropdown-menu">
+                            <li><a href="PlaneList.aspx">Aircraft List</a></li>
+                            <li><a href="Plane.aspx">Add Aircraft</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="Report.aspx">Reports</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Maintenance<b class="caret"></b></a><ul class="dropdown-menu">
+                            <li><a href="javascript: DisplayPartyValidations(1);">Airworthiness Directives</a></li>
+                            <li><a href="javascript: DisplayPartyValidations(2);">Service Bulletins</a></li>
+                            <li><a href="javascript: DisplayComponentList();">Parts/Components</a></li>
+                        </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other<b class="caret"></b></a><ul class="dropdown-menu">
+                            <li><a href="MySchedule.aspx">My Schedule</a></li>
+                            <li><a href="MyAccount.aspx?RootNode=1">My Account</a></li>
+                            <li><a href="MyCurriculum.aspx?RootNode=1">My Curriculum</a></li>
+                            <li><a href="Dashboard.aspx">My Dashboard</a></li>
+                            <li><a href="LogbookList.aspx">My Logbook</a></li>
+                            <li><a href="javascript:DisplayDispatchStatus();">Dispatch Status</a></li>
+                            <li><a href="javascript:DisplayFlightInfoFile();">Flight Info File</a></li>
+                            <li><a href="SendMessage.aspx">Email Message</a></li>
+                            <li><a href="javascript:DisplayMessage();">Popup Message</a></li>
+                            <li><a href="UserList.aspx">Users</a></li>
+                            <li><a href="javascript: DisplayBatchSchedule();">Batch Schedule</a></li>
+                            <li><a href="Company.aspx">Company Setup</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="SignOff.aspx">Sign Off</a></li>
+                    </ul>
+                    <!--
+                    <ul class="nav navbar-nav">
+                        <li><a href="../">Home</a></li>
+                        <li><a href="../About">About</a></li>
+                        <li><a href="../Contact">Contact</a></li>
+                    </ul>
+                    -->
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+            </footer>
+        </div>
+
+    </form>
+    <script type="text/javascript">
+        var onResize = function () {
+            // apply dynamic padding at the top of the body according to the fixed navbar height
+            $("body").css("padding-top", $(".navbar-fixed-top").height());
+        };
+
+        // attach the function to the window resize event
+        $(window).resize(onResize);
+
+        // call it also when the page is ready after load or reload
+        $(function () {
+            onResize();
+        });
+
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $('form').validator();
+        });
+
+    </script>
+</body>
+</html>

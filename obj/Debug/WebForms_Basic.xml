@@ -1,0 +1,3272 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SchedulePointeShell
+</name>
+</assembly>
+<members>
+<member name="T:SchedulePointeShell.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SchedulePointeShell.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:SchedulePointeShell.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:SchedulePointeShell.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:SchedulePointeShell.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:SchedulePointeShell.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblPilot">
+<summary>
+lblPilot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblPilotName">
+<summary>
+lblPilotName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtPilotName">
+<summary>
+txtPilotName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblFindText">
+<summary>
+lblFindText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._hypFind">
+<summary>
+hypFind control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._tblPilotCache">
+<summary>
+tblPilotCache control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblSelectAnInstructor">
+<summary>
+lblSelectAnInstructor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lstInstructors">
+<summary>
+lstInstructors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblSelectAnAircraft">
+<summary>
+lblSelectAnAircraft control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lstAircraft">
+<summary>
+lstAircraft control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._btnClear">
+<summary>
+btnClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblInstructorGroundTime">
+<summary>
+lblInstructorGroundTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtGroundTime">
+<summary>
+txtGroundTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblDispatchDate">
+<summary>
+lblDispatchDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtDispatchDate">
+<summary>
+txtDispatchDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblDispatchNotesDesc">
+<summary>
+lblDispatchNotesDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtDispatchNotes">
+<summary>
+txtDispatchNotes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblClose">
+<summary>
+lblClose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._chkClosed">
+<summary>
+chkClosed control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblPilotNotes">
+<summary>
+lblPilotNotes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtPilotNotes">
+<summary>
+txtPilotNotes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._lblDepartment">
+<summary>
+lblDepartment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._ddlDepartment">
+<summary>
+ddlDepartment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._btnSave">
+<summary>
+btnSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._btnSaveInvoice">
+<summary>
+btnSaveInvoice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._btnSavePrint">
+<summary>
+btnSavePrint control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._btnSaveClose">
+<summary>
+btnSaveClose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._btnDelete">
+<summary>
+btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtPilotIsInstructor">
+<summary>
+txtPilotIsInstructor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtID">
+<summary>
+txtID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtPilotPartyID">
+<summary>
+txtPilotPartyID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtScheduleID">
+<summary>
+txtScheduleID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtStatus">
+<summary>
+txtStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtOriginatingPage">
+<summary>
+txtOriginatingPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.DispatchInstructor._txtMessageXML">
+<summary>
+txtMessageXML control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.PartyRate._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblResource">
+<summary>
+lblResource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblMake">
+<summary>
+lblMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtMake">
+<summary>
+txtMake control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblModel">
+<summary>
+lblModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtModel">
+<summary>
+txtModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblTailNumber">
+<summary>
+lblTailNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtTailNumber">
+<summary>
+txtTailNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblAircraftIdentifier">
+<summary>
+lblAircraftIdentifier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtAircraftIdentifier">
+<summary>
+txtAircraftIdentifier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblYear">
+<summary>
+lblYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtYear">
+<summary>
+txtYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblSerialNumber">
+<summary>
+lblSerialNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtSerialNumber">
+<summary>
+txtSerialNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblEquipment">
+<summary>
+lblEquipment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtEquipment">
+<summary>
+txtEquipment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblNotes">
+<summary>
+lblNotes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtNotes">
+<summary>
+txtNotes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblFuelCapacity">
+<summary>
+lblFuelCapacity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtFuelCapacity">
+<summary>
+txtFuelCapacity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label13">
+<summary>
+Label13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtGallonsPerHour">
+<summary>
+txtGallonsPerHour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblTwin">
+<summary>
+lblTwin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chkTwin">
+<summary>
+chkTwin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblIFRCertified">
+<summary>
+lblIFRCertified control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chkIFRCertified">
+<summary>
+chkIFRCertified control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblJet">
+<summary>
+lblJet control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chkJet">
+<summary>
+chkJet control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label17">
+<summary>
+Label17 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chkSimulator">
+<summary>
+chkSimulator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label19">
+<summary>
+Label19 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chkGroundResource">
+<summary>
+chkGroundResource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblCruisingAltitude">
+<summary>
+lblCruisingAltitude control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtCruisingAltitude">
+<summary>
+txtCruisingAltitude control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblColorScheme">
+<summary>
+lblColorScheme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtColorScheme">
+<summary>
+txtColorScheme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblScheduleBuffer">
+<summary>
+lblScheduleBuffer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtScheduleBuffer">
+<summary>
+txtScheduleBuffer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblTieDown">
+<summary>
+lblTieDown control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtTieDown">
+<summary>
+txtTieDown control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblOverrideable">
+<summary>
+lblOverrideable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chkOverrideable">
+<summary>
+chkOverrideable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblIndependentresource">
+<summary>
+lblIndependentresource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chkIndependentresource">
+<summary>
+chkIndependentresource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._ddlScheduleAccessType">
+<summary>
+ddlScheduleAccessType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblScheduleTurnAroundTime">
+<summary>
+lblScheduleTurnAroundTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtScheduleTurnAroundTime">
+<summary>
+txtScheduleTurnAroundTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblSSID">
+<summary>
+lblSSID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtSSID">
+<summary>
+txtSSID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblCurrent">
+<summary>
+lblCurrent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chkCurrent">
+<summary>
+chkCurrent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblCharterXSync">
+<summary>
+lblCharterXSync control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chkCharterXSync">
+<summary>
+chkCharterXSync control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypUploadImage1">
+<summary>
+hypUploadImage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypRemoveImage1">
+<summary>
+hypRemoveImage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypUploadImage2">
+<summary>
+hypUploadImage2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypRemoveImage2">
+<summary>
+hypRemoveImage2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Image2">
+<summary>
+Image2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypUploadImage3">
+<summary>
+hypUploadImage3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypRemoveImage3">
+<summary>
+hypRemoveImage3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Image3">
+<summary>
+Image3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblRates">
+<summary>
+lblRates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lstrates">
+<summary>
+lstrates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypEditrates">
+<summary>
+hypEditrates control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblRatePerHour">
+<summary>
+lblRatePerHour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._spRatePerHour">
+<summary>
+spRatePerHour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtrateperhour">
+<summary>
+txtrateperhour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblBlockRatePerHour">
+<summary>
+lblBlockRatePerHour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._spBlockRatePerHour">
+<summary>
+spBlockRatePerHour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtBlockRatePerHour">
+<summary>
+txtBlockRatePerHour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblLeaseBackRatePerHour">
+<summary>
+lblLeaseBackRatePerHour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtLeaseBackRatePerHour">
+<summary>
+txtLeaseBackRatePerHour control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblInsurancePerMonth">
+<summary>
+lblInsurancePerMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtInsurancePerMonth">
+<summary>
+txtInsurancePerMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblTieDownPerMonth">
+<summary>
+lblTieDownPerMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtTieDownPerMonth">
+<summary>
+txtTieDownPerMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblReportingOwner">
+<summary>
+lblReportingOwner control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtOwner">
+<summary>
+txtOwner control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblEmailAddress">
+<summary>
+lblEmailAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtEmailAddress">
+<summary>
+txtEmailAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblOwner">
+<summary>
+lblOwner control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._dgOwners">
+<summary>
+dgOwners control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label25">
+<summary>
+Label25 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblWeightBalanceHeaderDesc">
+<summary>
+lblWeightBalanceHeaderDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblMaxGrossWeight">
+<summary>
+lblMaxGrossWeight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtMaxGrossWeight">
+<summary>
+txtMaxGrossWeight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblBasicEmptyWeight">
+<summary>
+lblBasicEmptyWeight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtBasicEmptyWeight">
+<summary>
+txtBasicEmptyWeight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblMoment">
+<summary>
+lblMoment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtMoment">
+<summary>
+txtMoment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblUsefulLoad">
+<summary>
+lblUsefulLoad control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtUsefulLoad">
+<summary>
+txtUsefulLoad control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblPayload">
+<summary>
+lblPayload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtPayload">
+<summary>
+txtPayload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt360">
+<summary>
+txt360 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt030">
+<summary>
+txt030 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt060">
+<summary>
+txt060 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt090">
+<summary>
+txt090 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt120">
+<summary>
+txt120 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt150">
+<summary>
+txt150 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt180">
+<summary>
+txt180 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt210">
+<summary>
+txt210 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt240">
+<summary>
+txt240 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt270">
+<summary>
+txt270 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt300">
+<summary>
+txt300 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt330">
+<summary>
+txt330 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblDesignation">
+<summary>
+lblDesignation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._ddlDesignation">
+<summary>
+ddlDesignation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVcruise">
+<summary>
+lblVcruise control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVcruise">
+<summary>
+txtVcruise control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVr">
+<summary>
+lblVr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVr">
+<summary>
+txtVr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVs1">
+<summary>
+lblVs1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVs1">
+<summary>
+txtVs1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVx">
+<summary>
+lblVx control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVx">
+<summary>
+txtVx control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVso">
+<summary>
+lblVso control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVso">
+<summary>
+txtVso control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVy">
+<summary>
+lblVy control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVy">
+<summary>
+txtVy control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVle">
+<summary>
+lblVle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVle">
+<summary>
+txtVle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVa">
+<summary>
+lblVa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVa">
+<summary>
+txtVa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVlo">
+<summary>
+lblVlo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVlo">
+<summary>
+txtVlo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVfe">
+<summary>
+lblVfe control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVfe">
+<summary>
+txtVfe control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVmc">
+<summary>
+lblVmc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVmc">
+<summary>
+txtVmc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVno">
+<summary>
+lblVno control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVno">
+<summary>
+txtVno control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVxse">
+<summary>
+lblVxse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVxse">
+<summary>
+txtVxse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVne">
+<summary>
+lblVne control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVne">
+<summary>
+txtVne control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblVyse">
+<summary>
+lblVyse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVyse">
+<summary>
+txtVyse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblAircraftLogHeaderDesc">
+<summary>
+lblAircraftLogHeaderDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._fsLog">
+<summary>
+fsLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label15">
+<summary>
+Label15 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._ddlMaintenanceTrigger">
+<summary>
+ddlMaintenanceTrigger control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label16">
+<summary>
+Label16 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtAirframeTotalTime">
+<summary>
+txtAirframeTotalTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblHoursUntilMaintenance">
+<summary>
+lblHoursUntilMaintenance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtHoursUntilMaintenance">
+<summary>
+txtHoursUntilMaintenance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblCurrentHobbs">
+<summary>
+lblCurrentHobbs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtCurrentHobbs">
+<summary>
+txtCurrentHobbs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblTach1">
+<summary>
+lblTach1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtTach1">
+<summary>
+txtTach1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblTach2">
+<summary>
+lblTach2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtTach2">
+<summary>
+txtTach2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lbl100hr">
+<summary>
+lbl100hr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt100hr">
+<summary>
+txt100hr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chk100NotApplicable">
+<summary>
+chk100NotApplicable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lbl50hr">
+<summary>
+lbl50hr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt50hr">
+<summary>
+txt50hr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chk50NotApplicable">
+<summary>
+chk50NotApplicable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lbl25hr">
+<summary>
+lbl25hr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt25hr">
+<summary>
+txt25hr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._chk25NotApplicable">
+<summary>
+chk25NotApplicable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lbl100hrDate">
+<summary>
+lbl100hrDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt100hrDate">
+<summary>
+txt100hrDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lbl50hrDate">
+<summary>
+lbl50hrDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt50hrDate">
+<summary>
+txt50hrDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lbl25hrDate">
+<summary>
+lbl25hrDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txt25hrDate">
+<summary>
+txt25hrDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblAnnualDate">
+<summary>
+lblAnnualDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtAnnualDate">
+<summary>
+txtAnnualDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblPitotStatic">
+<summary>
+lblPitotStatic control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtPitotStatic">
+<summary>
+txtPitotStatic control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label18">
+<summary>
+Label18 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtRegistration">
+<summary>
+txtRegistration control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblElt">
+<summary>
+lblElt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtElt">
+<summary>
+txtElt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lbltransponder">
+<summary>
+lbltransponder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txttransponder">
+<summary>
+txttransponder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblEltBatteryDate">
+<summary>
+lblEltBatteryDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtEltBatteryDate">
+<summary>
+txtEltBatteryDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtGPSDate">
+<summary>
+txtGPSDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblCycles">
+<summary>
+lblCycles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtCycles">
+<summary>
+txtCycles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblLandings">
+<summary>
+lblLandings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtLandings">
+<summary>
+txtLandings control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._fsVORCheck">
+<summary>
+fsVORCheck control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVORChkDate">
+<summary>
+txtVORChkDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVORChkFacility">
+<summary>
+txtVORChkFacility control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVORChkFrequency">
+<summary>
+txtVORChkFrequency control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVORChkNav1">
+<summary>
+txtVORChkNav1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label10">
+<summary>
+Label10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVORChkNav2">
+<summary>
+txtVORChkNav2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label11">
+<summary>
+Label11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVORChkNav3">
+<summary>
+txtVORChkNav3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label12">
+<summary>
+Label12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtVORChkPilotName">
+<summary>
+txtVORChkPilotName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label28">
+<summary>
+Label28 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lstVORChkType">
+<summary>
+lstVORChkType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblFindPilot">
+<summary>
+lblFindPilot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._fsEngine">
+<summary>
+fsEngine control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtEngineOverhaul">
+<summary>
+txtEngineOverhaul control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtEngineTBO">
+<summary>
+txtEngineTBO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblHoursSinceOverhaul">
+<summary>
+lblHoursSinceOverhaul control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._fsAPU">
+<summary>
+fsAPU control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblCurrentAPU">
+<summary>
+lblCurrentAPU control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtCurrentAPU">
+<summary>
+txtCurrentAPU control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblAPUCycles">
+<summary>
+lblAPUCycles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtAPUCycles">
+<summary>
+txtAPUCycles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Div1">
+<summary>
+Div1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lgADs">
+<summary>
+lgADs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._tblCustomFields">
+<summary>
+tblCustomFields control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtID">
+<summary>
+txtID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtCompanyID">
+<summary>
+txtCompanyID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtOriginatingPage">
+<summary>
+txtOriginatingPage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtMessageXML">
+<summary>
+txtMessageXML control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypADs">
+<summary>
+hypADs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label14">
+<summary>
+Label14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblMaintenanceTrigger">
+<summary>
+lblMaintenanceTrigger control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblMaintenanceTimeDesc">
+<summary>
+lblMaintenanceTimeDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblMaintenanceTime">
+<summary>
+lblMaintenanceTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblHoursUntilMaintenanceDesc">
+<summary>
+lblHoursUntilMaintenanceDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblHoursUntilMaintenance2">
+<summary>
+lblHoursUntilMaintenance2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._btnLoadLog">
+<summary>
+btnLoadLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._btnCopyLog">
+<summary>
+btnCopyLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypDownloadMaintLog">
+<summary>
+hypDownloadMaintLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypPrintMaintLog">
+<summary>
+hypPrintMaintLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypAddInspection">
+<summary>
+hypAddInspection control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypAddADs">
+<summary>
+hypAddADs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label20">
+<summary>
+Label20 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._ddlInspectionFilter">
+<summary>
+ddlInspectionFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._dgInspections">
+<summary>
+dgInspections control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Div3">
+<summary>
+Div3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypAddComponent">
+<summary>
+hypAddComponent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label24">
+<summary>
+Label24 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._ddlComponents">
+<summary>
+ddlComponents control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Label22">
+<summary>
+Label22 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._ddlComponentInspectionFilter">
+<summary>
+ddlComponentInspectionFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._dgComponents">
+<summary>
+dgComponents control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblPilotCurrencyHeaderDesc">
+<summary>
+lblPilotCurrencyHeaderDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._lblCurrencyInDays">
+<summary>
+lblCurrencyInDays control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtCurrency">
+<summary>
+txtCurrency control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._tblFiles">
+<summary>
+tblFiles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._btnUploadFile">
+<summary>
+btnUploadFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._fsCourseLesson">
+<summary>
+fsCourseLesson control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._Panel1">
+<summary>
+Panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._tvDepartments">
+<summary>
+tvDepartments control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypSquawks">
+<summary>
+hypSquawks control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypSquawkCount">
+<summary>
+hypSquawkCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hypLocations">
+<summary>
+hypLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._cmdSave">
+<summary>
+cmdSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._cmdCancel">
+<summary>
+cmdCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._cmdDelete">
+<summary>
+cmdDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._txtPartyID">
+<summary>
+txtPartyID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hidDelete">
+<summary>
+hidDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hidRemoveImage">
+<summary>
+hidRemoveImage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hidRemoveFile">
+<summary>
+hidRemoveFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Plane._hidGeneric">
+<summary>
+hidGeneric control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.PlaneList._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.PlaneList._hypLink">
+<summary>
+hypLink control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.PlaneList._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.PlaneList._cmdAdd">
+<summary>
+cmdAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.PlaneList._rdActive">
+<summary>
+rdActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.PlaneList._rdDeleted">
+<summary>
+rdDeleted control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.PlaneList._tblMain">
+<summary>
+tblMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.PlaneList._txtMessageXML">
+<summary>
+txtMessageXML control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblAircraft">
+<summary>
+lblAircraft control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblDate">
+<summary>
+lblDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._txtDate">
+<summary>
+txtDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblPilot">
+<summary>
+lblPilot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._txtPilotName">
+<summary>
+txtPilotName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblCategory">
+<summary>
+lblCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._ddlCategory">
+<summary>
+ddlCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblDescription">
+<summary>
+lblDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._txtDescription">
+<summary>
+txtDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblTach">
+<summary>
+lblTach control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._txtTachTime">
+<summary>
+txtTachTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblResolution">
+<summary>
+lblResolution control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._txtResolution">
+<summary>
+txtResolution control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblClose">
+<summary>
+lblClose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._chkClose">
+<summary>
+chkClose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._lblClosedDate">
+<summary>
+lblClosedDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._txtClosedDate">
+<summary>
+txtClosedDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._cmdSave">
+<summary>
+cmdSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._cmdCancel">
+<summary>
+cmdCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._cmdDelete">
+<summary>
+cmdDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._txtID">
+<summary>
+txtID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._txtCompanyID">
+<summary>
+txtCompanyID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._txtPlaneID">
+<summary>
+txtPlaneID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Squawk._txtMessageXML">
+<summary>
+txtMessageXML control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._lblViewSquawks">
+<summary>
+lblViewSquawks control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._cmdAdd">
+<summary>
+cmdAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._cmdClose">
+<summary>
+cmdClose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._hypDownload">
+<summary>
+hypDownload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._rdOpen">
+<summary>
+rdOpen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._rdClosed">
+<summary>
+rdClosed control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._rdAll">
+<summary>
+rdAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._dgSquawks">
+<summary>
+dgSquawks control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SquawkList._txtPlaneID">
+<summary>
+txtPlaneID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SiteMaster._HeaderContent">
+<summary>
+HeaderContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Site_Mobile._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Site_Mobile._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Site_Mobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SchedulePointeShell.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
